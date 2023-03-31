@@ -8,7 +8,7 @@ import scipy as sc
 import warnings
 warnings.filterwarnings('ignore')
 
-'''Kullanacağımız veri seti Iris veri setidir.Python'ın pandas kütüphanesinin read_csv methodu ile veri setini import ediyoruz.'''
+'''Kullanacağımız veri seti Iris veri setidir.Python'ın pandas kütüphanesinin read_excel methodu ile veri setini import ediyoruz.'''
 
 data = pd.read_excel("Iris.xls")
 
